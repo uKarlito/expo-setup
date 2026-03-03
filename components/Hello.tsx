@@ -1,5 +1,15 @@
-import { Text } from "react-native";
+import { StyleSheet, Text } from "react-native";
 
-export const Hello = () => {
-    return <Text>Rélou Woudi!</Text>
+const Hello = () => {
+    return <Text style={styles.hero}>Rélou Woudi!</Text>
 }
+
+export { Hello };
+
+const styles = StyleSheet.create({
+    hero: {
+        fontSize: 64,
+        textAlign: "center",
+        color: "red",
+    }
+})

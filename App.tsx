@@ -3,7 +3,7 @@ import { Hello } from "./components/Hello";
 
 export default function App() {
   return <View>
-  <Text>Rélou Woudi!</Text>
+  <Text></Text>
   <Hello />
   </View>;
 }
